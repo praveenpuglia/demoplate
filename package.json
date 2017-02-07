@@ -1,0 +1,21 @@
+{
+  "name": "demoplate",
+  "version": "1.0.0",
+  "description": "The boilerplate setup for showing static website demos",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server --files \"**/*.css, **/*.js, **/*.html\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo",
+    "boilerplate",
+    "sync",
+    "browsersync"
+  ],
+  "author": "Praveen Puglia",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.18.7"
+  }
+}
