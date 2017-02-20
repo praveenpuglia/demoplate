@@ -4,7 +4,7 @@
   "description": "The boilerplate setup for showing static website demos",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass src/style.scss style.css",
+    "scss": "node-sass src/style.scss src/style.css",
     "start": "browser-sync start --server --files \"**/*.css, **/*.js, **/*.html\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
