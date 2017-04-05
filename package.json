@@ -6,7 +6,8 @@
   "scripts": {
     "scss": "node-sass src/style.scss src/style.css",
     "start": "browser-sync start --server --files \"**/*.css, **/*.js, **/*.html\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:scss": "npm run scss -- -w & npm start"
   },
   "keywords": [
     "demo",
