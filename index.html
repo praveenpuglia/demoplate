@@ -1,4 +1,5 @@
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Demoplate</title>
@@ -7,8 +8,72 @@
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
 </head>
+
 <body>
-    <h1>Demoplate!</h1>
+    <div class="container">
+        <div class="comments">
+            <div class="comments-create">
+                <img src="src/assets/user.jpeg" alt="" class="comment-author-avatar">
+                <div class="comment-input">
+                    <form action="#">
+                        <textarea required placeholder="Your Comment..." name="" id="" class="comment-input-control"></textarea>
+                        <button class="comment-input-submit">Post Your Comment</button>
+                    </form>
+
+                </div>
+            </div>
+            <div class="comments-list-wrapper">
+                <h2 class="comments-count">
+                    <span class="count">2 comments</span> so far!
+                </h2>
+                <ul class="comments-list">
+                    <li class="comment-item">
+                        <img src="src/assets/user.jpeg" alt="" class="comment-author-avatar">
+                        <div class="comment-meta">
+                            <span class="meta-author-name">Praveen Puglia</span>
+                            <span class="meta-time">a few minutes ago!</span>
+                        </div>
+                        <p class="comment-content">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim reprehenderit sapiente dolores, dicta id deserunt, voluptatum
+                            vero! Culpa doloribus aliquam quo dolores amet laborum, excepturi nulla impedit quas est nam!
+                        </p>
+                        <div class="comment-actions">
+                            <span class="comment-votes">
+                                <span class="vote-count">4</span>
+                                <button class="vote-up"></button>
+                                <button class="vote-down"></button>
+                            </span>
+                            <button class="comment-reply">Reply</button>
+                        </div>
+                        <ul class="comments-list">
+                            <li class="comment-item">
+                                <img src="src/assets/user.jpeg" alt="" class="comment-author-avatar">
+                                <div class="comment-meta">
+                                    <span class="meta-author-name">Praveen Puglia</span>
+                                    <span class="meta-time">a few minutes ago!</span>
+                                </div>
+                                <p class="comment-content">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim reprehenderit sapiente dolores, dicta id deserunt, voluptatum
+                                    vero! Culpa doloribus aliquam quo dolores amet laborum, excepturi nulla impedit quas
+                                    est nam!
+                                </p>
+                                <div class="comment-actions">
+                                    <span class="comment-votes">
+                                        <span class="vote-count">4</span>
+                                        <button class="vote-up" aria-label="Vote Up"></button>
+                                        <button class="vote-down" aria-label="Vote Down"></button>
+                                    </span>
+                                    <button class="comment-reply">Reply</button>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="src/utilities.js"></script>
     <script src="src/demo.js"></script>
 </body>
+
 </html>
