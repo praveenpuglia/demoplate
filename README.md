@@ -1,11 +1,15 @@
 # Demoplate
 
 A pico setup for simple demos for which you don't need to go to an online service.
-Currently it supports only HTML, CSS & JS.
+Currently it supports only HTML, CSS, SCSS & JS.
 
 ## Installation
 ```sh
 npm install
+
+# OR
+
+yarn install
 ```
 
 ## Run 
@@ -14,7 +18,7 @@ npm start #for simple css and js
 ```
 
 ### With SCSS
-If you plan to use SCSS, try putting your CSS into **src/style.scss**. If you need to use multiple files, import all of them in **src/style.scss**.
+If you plan to use SCSS, put styles into **src/style.scss**. If you need to use multiple files, import all of them in **src/style.scss**.
 
 ```sh
 npm run watch:scss
