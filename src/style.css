@@ -27,6 +27,7 @@ button:focus {
 .comment-author-avatar {
   width: 64px;
   border-radius: 50%;
+  grid-area: avatar;
 }
 
 /*Comment Input  */
@@ -38,8 +39,11 @@ button:focus {
   grid-gap: 1rem;
   border-radius: 0.5rem;
   border: 1px solid black;
+  grid-template-areas: "avatar inputbox"
 }
-
+.comment-input {
+  grid-area: inputbox;
+}
 .comment-input textarea {
   display: block;
   width: 100%;
@@ -86,9 +90,6 @@ button:focus {
 .comment-item > .comments-list {
   margin-top: 2rem;
   grid-column-end: span 2;
-}
-.comment-item .comment-author-avatar {
-  grid-area: avatar;
 }
 
 /*Comment Meta  */
